@@ -141,3 +141,15 @@ span.badge {
   padding-bottom: .05em;
   border-radius: 10rem;
 }
+
+span.badge2 {
+  font-size: 14px;
+  background-color: #a62717;
+  color: #ffffff;
+  font-weight: 600;
+  padding-right: .4em;
+  padding-left: .4em;
+  padding-top: .05em;
+  padding-bottom: .05em;
+  border-radius: 10rem;
+}
