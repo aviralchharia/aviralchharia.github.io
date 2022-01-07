@@ -129,3 +129,15 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+span.badge {
+  font-size: 13px;
+  background-color: #313164;
+  color: #ffffff;
+  font-weight: 600;
+  padding-right: .4em;
+  padding-left: .4em;
+  padding-top: .05em;
+  padding-bottom: .05em;
+  border-radius: 10rem;
+}
