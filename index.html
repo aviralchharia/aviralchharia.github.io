@@ -542,88 +542,9 @@
      </table>
 
 
-<iframe width="350px" height="198px" src="https://www.youtube.com/embed/LHE66gIS758?list=PLO-Klip3blfPDfOkdFFwtZ4V6BQ4OfxpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="350px" height="198px" src="https://www.youtube.com/embed/plqof_hWuCI?list=PLO-Klip3blfPDfOkdFFwtZ4V6BQ4OfxpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="400px" height="227px" src="https://www.youtube.com/embed/LHE66gIS758?list=PLO-Klip3blfPDfOkdFFwtZ4V6BQ4OfxpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="400px" height="227px" src="https://www.youtube.com/embed/plqof_hWuCI?list=PLO-Klip3blfPDfOkdFFwtZ4V6BQ4OfxpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
-
-
-{% for i,j in list %}
-
-  <div class="row">
-    <div class="col s6 m6">
-      <div data-aos="fade-right" data-aos-duration="2000" data-aos-once="false" class=" video-container"
-        style="padding-top: 7%;">
-        <iframe class="latestVideoEmbed" vnum='{{i}}' cid="UCDXQNb3linY9EksWAvJhPyQ" frameborder="0" allowfullscreen
-          style="border: 5px solid #ffffff; padding: 5px;"></iframe>
-      </div>
-    </div>
-
-    <div class="col s6 m6">
-      <div data-aos="fade-left" data-aos-duration="2000" data-aos-once="false" class=" video-container"
-        style="padding-top: 7%;">
-        <iframe class="latestVideoEmbed" vnum='{{j}}' cid="UCDXQNb3linY9EksWAvJhPyQ" frameborder="0" allowfullscreen
-          style="border: 5px solid #ffffff; padding: 5px;"></iframe>
-      </div>
-    </div>
-
-  </div>
-  {% endfor %}
-  
-</div>
-  
-<script>
-  
-  var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3DUCDXQNb3linY9EksWAvJhPyQ&api_key=mll6zmdtx5s3w48ti7g1hdbrpjgzssl23q36c8ml&count=1000";
-  function loadVideo(iframe) {
-    $.getJSON(reqURL,
-      function (data) {
-        var videoNumber = (iframe.getAttribute('vnum') ? Number(iframe.getAttribute('vnum')) : 0);
-        console.log(videoNumber);
-
-        var link = data.items[videoNumber].link;
-        id = link.substr(link.indexOf("=") + 1);
-        iframe.setAttribute("src", "https://youtube.com/embed/" + id + "?controls=1&autoplay=0"); //change controls to 0 if you don't want controls to be displayed, and set autoplay to 1 if you want it to play automatically
-
-      }
-    );
-  }
-  
-  var iframes = document.getElementsByClassName('latestVideoEmbed');
-  var span = document.getElementsByClassName('card-title'); // use to get the title of the video
-  for (var i = 0, len = iframes.length; i < len; i++) {
-    loadVideo(iframes[i]);
-  }
-
-</script>
-</body>
-{% endblock %}
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
