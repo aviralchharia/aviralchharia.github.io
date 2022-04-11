@@ -1,6 +1,6 @@
 /* latin-ext */
 @font-face {
-  font-family: 'Lato';
+  font-family: "MessinaSans", sans-serif;
   font-style: italic;
   font-weight: 400;
   src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
@@ -8,7 +8,7 @@
 }
 /* latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: "MessinaSans", sans-serif;
   font-style: italic;
   font-weight: 400;
   src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
@@ -16,7 +16,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: 'Lato';
+  font-family: "MessinaSans", sans-serif;
   font-style: italic;
   font-weight: 700;
   src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
@@ -24,7 +24,7 @@
 }
 /* latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: "MessinaSans", sans-serif;
   font-style: italic;
   font-weight: 700;
   src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
@@ -32,7 +32,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: 'Lato';
+  font-family: "MessinaSans", sans-serif;
   font-style: normal;
   font-weight: 400;
   src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
@@ -40,7 +40,7 @@
 }
 /* latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: "MessinaSans", sans-serif;
   font-style: normal;
   font-weight: 400;
   src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
@@ -48,7 +48,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: 'Lato';
+  font-family: "MessinaSans", sans-serif;
   font-style: normal;
   font-weight: 700;
   src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
@@ -56,7 +56,7 @@
 }
 /* latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: "MessinaSans", sans-serif;
   font-style: normal;
   font-weight: 700;
   src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
